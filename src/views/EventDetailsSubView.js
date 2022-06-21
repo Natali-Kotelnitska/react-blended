@@ -16,7 +16,7 @@ export const EventDetailsView = () => {
             Go Back
           </button>
           <h2>{event.name}</h2>
-          <img src={event.images[1].url} alt={event.name}></img>
+          <img src={event.images[1].url} alt={event.name} width="300"></img>
           <p>Genre: {event.classifications[0].genre.name}</p>
           <p>Subgenre: {event.classifications[0].subGenre.name}</p>
         </>
