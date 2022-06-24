@@ -11,7 +11,7 @@ const EventSubView = () => {
       {event && (
         <>
           <h2>{event.name}</h2>
-          <img src={event.images[0].url} alt={event.name}></img>
+          <img src={event.images[0].url} alt={event.name} width="300"></img>
           <Link to="details" state={location.state}>
             Details
           </Link>
